@@ -151,9 +151,12 @@
 }
 /* latest deal section start from here  */
 .latest-container{
-    height: 50vh;
+    height: 300px;
+    width: 900px;
     margin: 0px 240px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-   
+    border: 2px solid black;
+    background-image:
+    
 }
