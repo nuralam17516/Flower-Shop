@@ -23,27 +23,29 @@
 /* banner section start from here */
 .bannner-container{
     height: 100vh;
+    padding: 0px 100px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(229, 227, 216)
 }
 .banner-image{
-    height: 500px;
-    width: 400px;
-    padding right: 240px;
+    height: 525px;
+    width: 370px;
+    padding-top: 100px;
+    /* position: relative; */
 }
 .about-container{
-    padding-left: 240px;   
+    width: 50%;
 }
 .main-title{
-    font-size: 40px;
+    font-size: 32px;
     text-align: left;
 }
 .title-description{
     padding-top: 20px;
-    padding-right: 180px;
+    padding-right: 40px;
 }
 .btn-common{
     font-size: 20px;
@@ -53,4 +55,62 @@
     color: white;
     border: none;
     border-radius: 5px;
+}
+/* featured container start from here */
+.feature-container{
+    height: 100vh;
+    padding: 0px 240px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feature-title{
+    padding: 50px;
+    text-align: center;
+}
+.pink-container{
+    width: 250px;
+    height: 350px;
+}
+.pink-tree-1{
+    height: 250px;
+    width: 250px;
+    padding: 100px 20px 0px;
+    background-color: rgb(253, 230, 234);
+    border: none;
+    border-radius: 200px 200px 0px 0px;
+}
+.pink-tree-2{
+    height: 250px;
+    width: 250px;
+    padding: 100px 20px 0px;
+    background-color: rgb(212, 242, 241);
+    align-items: center;
+    border: none;
+    border-radius: 200px 200px 0px 0px;
+}
+.pink-tree-3{
+    height: 250px;
+    width: 250px;
+    padding: 100px 20px 0px;
+    background-color: rgb(212, 242, 241);
+    border: none;
+    border-radius: 200px 200px 0px 0px;
+}
+.pink-all-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.pink-tree-title{
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* Support container start from here */
+.support-container{
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    padding: 100px 240px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
 }
