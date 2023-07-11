@@ -110,6 +110,7 @@
 .pink-tree-title{
     margin-top: 20px;
     font-size: 20px;
+    cursor: pointer;
 }
 /* Support container start from here */
 .support-container{
