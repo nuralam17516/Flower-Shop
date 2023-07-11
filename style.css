@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/* nav section start from here */
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -9,6 +10,9 @@
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.898);
     color: white;
+}
+.logo{
+    cursor: pointer;
 }
 .menus{
     list-style: none;
