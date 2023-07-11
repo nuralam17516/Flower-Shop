@@ -59,7 +59,8 @@
 /* featured container start from here */
 .feature-container{
     height: 100vh;
-    padding: 0px 240px;
+    /* padding: 0px 240px; */
+    margin: 100px 240px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .feature-title{
@@ -107,10 +108,14 @@
 /* Support container start from here */
 .support-container{
     align-items: center;
-    gap: 40px;
+    padding: 20px;
     text-align: center;
-    padding: 100px 240px;
+    margin: 90px 240px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    border: 1px solid black;
+    border: 1px solid rgba(236, 233, 233, 0.85);
+    border-radius: 5px;
+    background-color: rgba(236, 233, 233, 0.85);
+    font-family: Arial, Helvetica, sans-serif;
 }
