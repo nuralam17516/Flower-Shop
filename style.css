@@ -66,6 +66,9 @@
     padding: 50px;
     text-align: center;
 }
+.feature-paragraph{
+    padding: 20px;
+}
 .pink-container{
     width: 250px;
     height: 350px;
@@ -107,9 +110,9 @@
 /* Support container start from here */
 .support-container{
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
-    margin: 90px 240px;
+    margin: 10px 200px 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -117,7 +120,12 @@
     border-radius: 5px;
     background-color: rgba(236, 233, 233, 0.85);
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
+.delivery-div{
+    width: 75px;
+}
+
 /* hot deal section start from here  */
 .hot-container{
     height: 70vh;
@@ -132,12 +140,18 @@
 .hot-deal-container{
     width: 50%;
 }
+.hot-title{
+    padding: 10px;
+}
 /* instragram section start from here */
 .instagram-container{
     height: 90vh;
     margin: 0px 240px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+.insta-paragraph{
+    padding: 20px;
 }
 .instra-flower{
     height: 270px;
